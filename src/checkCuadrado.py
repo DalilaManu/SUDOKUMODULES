@@ -1,3 +1,5 @@
+# src/checkCuadrado.py
+# Verifica que todas las filas tengan la misma longitud (Sudoku cuadrado)
 
 def checkCuadrado(sudoku):
     n = len(sudoku)
@@ -6,12 +8,9 @@ def checkCuadrado(sudoku):
             return False
     return True
 
-
-
 if __name__ == "__main__":
     import sys
     sys.path.append("..")
-
     import casosTest.casosTestSudoku as casos
 
     for nombre in casos.__dict__:

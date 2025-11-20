@@ -1,0 +1,8 @@
+{
+    "conventionalCommits.scopes": [
+        "simplificar el codigo src con Ruff",
+        "checkColumnas",
+        "Incluir variable \"privada\" en casos test",
+        "__init__.py"
+    ]
+}
