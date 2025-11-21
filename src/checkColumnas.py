@@ -19,4 +19,6 @@ if __name__ == "__main__":
 
     for nombre in casos.__dict__:
         if not nombre.startswith("__"):
-            print(nombre, "=>", checkColumnas(casos.__dict__[nombre]))
+            print(nombre, "=>", checkColumnas(casos.__dict__[nombre])) 
+
+

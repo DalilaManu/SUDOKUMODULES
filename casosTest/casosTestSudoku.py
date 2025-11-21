@@ -1,5 +1,4 @@
-# casosTest/casosTestSudoku.py
-# Tableros de prueba para el Sudoku
+
 
 correcto = [[1, 2, 3],
             [2, 3, 1],
